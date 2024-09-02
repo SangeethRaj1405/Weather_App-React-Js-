@@ -1,0 +1,117 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.input_box{
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: auto;
+    font-size: medium;
+}
+
+.search_icon{
+    cursor: pointer;
+    padding: 5px;
+    height: 30px;
+}
+
+.image{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 10;
+}
+
+.image img{
+    width: 160px;
+    height: 160px;
+}
+
+.temperature,
+.city,
+.country{
+    margin-top: 5px;
+    font-size: 35px;
+    color: darkslategray;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.temperature{
+    font-weight: 500;
+}
+
+.city{
+    color: rgb(253, 208, 5);
+    font-size: 40px;
+    font-weight: 40;
+}
+
+.country{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cordinates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    text-align: center;
+}
+
+.cordinates div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.cordinates div span{
+    font-size: 14px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

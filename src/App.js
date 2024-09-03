@@ -148,7 +148,7 @@ function App() {
           onChange={handleCity}
           onKeyDown={handleKeyDown}
           value={text}
-          placeholder="Enter the city to search"
+          placeholder=" Enter the city to search"
         />
         <div className="search_icon" onClick={search}>
           <img src={require("./Images/search.png")} alt="search" />

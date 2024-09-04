@@ -117,8 +117,8 @@ function App() {
       setTemp(data.main.temp);
       setCity(data.name);
       setCountry(data.sys.country);
-      setLatitude(data.coord.lat);
-      setLongitude(data.coord.lon);
+      setLatitude(Math.floor(data.coord.lat));
+      setLongitude(Math.floor(data.coord.lon));
       setHumidity(data.main.humidity);
       setWind(data.wind.speed);
 

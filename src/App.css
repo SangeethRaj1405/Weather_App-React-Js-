@@ -98,7 +98,6 @@ body{
 
 .cordinates div{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -109,11 +108,10 @@ body{
 }
 
 .humidity-percent,
-.wind-percent,
-.cordinates div span:nth-child(2){
+.wind-percent{
     font-size: 18px;
     font-weight: bold;
-    color: azure;
+    color: rgb(0, 7, 7);
     padding-top: 5px;
 }
 
